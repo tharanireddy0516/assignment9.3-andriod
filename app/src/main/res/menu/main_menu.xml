@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><!--xml layer starts here
+xml stands for extensible markup language
+it is a background code of layouts,widges etc-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+</menu>
+<!--A menu resource defines an application menu (Options Menu, Context Menu, or submenu) that can be inflated with MenuInflater
+    here we are taking option menu
+    A menu item contain a menu element for a Sub Menu and child of a menu or group element.-->

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?><!--xml layer starts here
+xml stands for extensible markup language
+it is a background code of layouts,widges etc-->
+<!--Linear layout is one of the types of layout
+It aligns views one by one that is by vertically/horizontally
+layout_width indicates the width of the Linear layout
+layout_Height indicates the height of the Linear layout
+context indicates the package name of the respective java class
+match parent will take complete height or width of text
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.tharani.context_menu.CustomAdapter">
+    <!--TextView is one of component of palette to display anything on layout
+     width indicates the width of the TextView
+     Height indicates the height of the TextView
+     what ever we write in text it displays in output
+     TextSize indicates the size of the text in sp units
+     TextColor indicates the color of text
+     string variables used to store the letters,numbers,symbols linked up with this program
+     it extracts string resource name and value in string.xml file-->
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="188dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="40dp"
+        android:textColor="#000"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="188dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:textColor="#000"
+        android:layout_marginStart="40dp" />
+    <!--TextView is one of component of palette to display anything on layout
+     width indicates the width of the TextView
+     Height indicates the height of the TextView
+     what ever we write in text it displays in output
+     TextSize indicates the size of the text in sp units
+     TextColor indicates the color of text
+     string variables used to store the letters,numbers,symbols linked up with this program
+     it extracts string resource name and value in string.xml file-->
+
+</LinearLayout><!--linear layout ends here-->

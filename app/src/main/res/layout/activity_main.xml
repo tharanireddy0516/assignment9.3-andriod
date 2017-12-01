@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><!--xml layer starts here
+xml stands for extensible markup language
+it is a background code of layouts,widges etc-->
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/list_View"
+    tools:context="com.example.tharani.context_menu.MainActivity">
+
+
+</ListView>
+    <!--Android ListView is a view which groups several items and display them in vertical scrollable list.
+       The list items are automatically inserted to the list using an Adapter that pulls content from a source such as an array or database-->
